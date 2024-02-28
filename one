@@ -1,6 +1,12 @@
 
 for github
 
+// Language updates
+// various fixes and tweeks by users (Thanks all!)
+// Some security updates (Provided by pixeebot)
+
+
+
 ------------------------------------------
 sudo apt update && sudo apt upgrade -y
 ---------------------------------------------
