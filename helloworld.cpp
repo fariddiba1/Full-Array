@@ -48,6 +48,7 @@ int WINAPI wWinMain(HINSTANCE hInstance, HINSTANCE, PWSTR pCmdLine,
   RegisterClass(&wc);
 
   // Create the window.
+  // Create the window.
 
   HWND hwnd =
       CreateWindowEx(0,                           // Optional window styles.
@@ -71,7 +72,9 @@ int WINAPI wWinMain(HINSTANCE hInstance, HINSTANCE, PWSTR pCmdLine,
   ShowWindow(hwnd, nCmdShow);
 
   // Run the message loop.
-  MSG msg = {};
+  // Run the message loop.
+
+ MSG msg = {};
   while (GetMessage(&msg, NULL, 0, 0)) {
     TranslateMessage(&msg);
     DispatchMessage(&msg);
